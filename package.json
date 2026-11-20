@@ -1,0 +1,55 @@
+{
+  "name": "morning-vscode-theme",
+  "displayName": "Morning (Vim Port)",
+  "description": "A port of Vim's \"morning.vim\" colorscheme: light grey background, with bold and no-bold variants.",
+  "version": "1.0.0",
+  "publisher": "r11s",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "galleryBanner": {
+    "color": "#e4e4e4",
+    "theme": "light"
+  },
+  "icon": "assets/icon.png",
+  "license": "Vim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r11s/morning-vscode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/r11s/morning-vscode-theme/issues"
+  },
+  "homepage": "https://github.com/r11s/morning-vscode-theme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Morning (Vim Port)",
+        "uiTheme": "vs",
+        "path": "./themes/morning-color-theme.json"
+      },
+      {
+        "label": "Morning (Vim Port, no bold)",
+        "uiTheme": "vs",
+        "path": "./themes/morning-color-theme-no-bold.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "light-theme",
+    "vim",
+    "morning",
+    "colorscheme",
+    "classic",
+    "vscode-theme"
+  ],
+  "author": "Port by Rainer Strauss (original morning.vim by Bram Moolenaar)"
+}
